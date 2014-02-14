@@ -2,8 +2,6 @@ package com.bytefly.example.navigationdrawer;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentManager;
 import android.content.res.Configuration;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
@@ -102,7 +100,7 @@ public class NavigationDrawerTest extends Activity {
 	}
 	
 	public boolean onPrepareOptionsMenu(Menu menu) {
-		boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
+		mDrawerLayout.isDrawerOpen(mDrawerList);
 		return super.onPrepareOptionsMenu(menu);
 	}
 	
