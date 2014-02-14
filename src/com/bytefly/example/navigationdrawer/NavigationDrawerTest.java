@@ -1,4 +1,6 @@
-package com.bytefly.example.drawerlayoutexample;
+package com.bytefly.example.navigationdrawer;
+
+import com.bytefly.example.drawerlayoutexample.R;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -14,7 +16,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class DrawerLayoutActivity extends Activity {
+public class NavigationDrawerTest extends Activity {
 
 	private String[] mBeachTitles;
 	private DrawerLayout mDrawerLayout;
